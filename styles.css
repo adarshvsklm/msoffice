@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+   
+    width: 100%;
+    height: 56px;
+    background-color: rgb(255, 255, 255);
+}
+.headleft{
+    display: flex;
+flex-direction: row;}
+.bg{
+    background-color: black;
+    background: url("images/bg.jpg");
+    width: 100%;
+    height: 470px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.logo{
+    height: 23px;
+    padding-left: 61px;
+ 
+}
+
+.v1{
+    border-left: 4px solid rgb(0, 0, 0);
+    height: 10px;
+    border-left: 2px solid rgb(0, 0, 0);
+    height: 25px;
+}
+.headerposition{
+    margin-left: 25px;
+    margin-top: 14px;
+}
+.txtoffice{
+    font-size: 20px;
+    margin-top: 11px;
+    margin-left: 19px;
+    font-weight: 500;
+}
+.hsize{
+    font-size: 13px;
+    margin-left: 20px;
+    margin-top: 18px;
+}
+.re{
+    margin-left: 37px;
+}
+.te{
+    margin-left: 34px;
+}
+.br{
+    border: 1px solid black;
+    padding: 5px;
+    margin-top: 12px;
+    margin-left: 23px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.headright{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.signindiv{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -33px;
+    margin-right: 83px;
+}
+.imgprofile{
+    height: 32px;
+
+}
+.txtsign{
+    font-size: 13px;
+    margin-right: 13px;
+    margin-top: 7px;
+}
+.txtmicro{
+    font-size: 13px;
+    margin-top: -26px;
+    margin-right: 34px;
+}
+.txtoffice2{
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: 500;
+}
+.topleftdiv{
+    padding-top: 131px;
+    padding-left: 75px;
+}
+.txtcaption{
+    color: white;
+    margin-top: 19px;
+    font-size: 15px;
+}
+.btnsignin{
+    border: 2px solid white;
+    width: 199px;
+    height: 38px;
+    background: #D83B01;
+    margin-top: 20px;
+    color: white;
+    font-weight: 500;
+}
+.btngetoffice{
+    width: 199px;
+    height: 38px;
+    border: 2px solid #D83B01;
+    font-weight: 500;
+    color: #D83B01;
+    margin-left: 21px;
+}
+.txtup{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 31px;
+}
+.seconddiv{
+    padding-top: 105px;
+}
+.txtuseapps{
+    color: rgb(0, 0, 0);
+    font-size: 36px;
+    text-align: center;
+    font-weight: 600;
+}
+.divicons{
+    /* border: 2px solid black; */
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+
+}
+.icon1{
+    height: 54px;
+}
+.txtsubtle{
+    font-size: 13px;
+    margin-left: 15px;
+}
+.div3{
+    margin-top: 100px;
+}
+.img3{
+    width: 100%;
+}
+.div4{
+    width: 100%;
+    height: 400px;
+    background: #F5F5F5;
+    
+}
+.txtpremium{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    padding-top: 105px;
+
+}
+.div42{
+    /* border: 1px solid black; */
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+
+.icon2{
+    height: 40px;
+
+}
+.txticon2{
+    margin-top: 25px;
+font-size: 14px;
+color: #0097D8;
+font-weight: 500;
+}
+.div5{
+    height: 150px;
+}
+.imgsocial{
+    margin-top: 67px;
+    height: 25px;
+    margin-left: 76px;
+}
+.lists{
+    display: flex;
+    justify-content: space-between;
+background: #F2F2F2;
+padding-top: 50px;
+padding-left: 80px;
+padding-right: 100px;
+padding-bottom: 50px;
+
+
+}
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+
+}
+li{
+    font-size: x-small;
+    color: rgb(68, 68, 68);
+}
+.lihead{
+    font-size: 18px;
+}
