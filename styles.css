@@ -44,10 +44,18 @@ flex-direction: row;}
     margin-left: 19px;
     font-weight: 500;
 }
+.txtoffice:hover{
+    text-decoration: underline;
+    text-decoration-thickness: .1em;
+}
 .hsize{
     font-size: 13px;
     margin-left: 20px;
     margin-top: 18px;
+}
+.hsize:hover{
+    text-decoration: underline;
+    text-decoration-thickness: .2em;
 }
 .re{
     margin-left: 37px;
@@ -87,6 +95,10 @@ flex-direction: row;}
     margin-top: -26px;
     margin-right: 34px;
 }
+.txtmicro:hover{
+    text-decoration: underline;
+    text-decoration-thickness: .2em;
+}
 .txtoffice2{
     color: rgb(255, 255, 255);
     font-size: 34px;
@@ -110,6 +122,10 @@ flex-direction: row;}
     color: white;
     font-weight: 500;
 }
+.btnsignin:hover{
+    background: #7e2403;
+
+}
 .btngetoffice{
     width: 199px;
     height: 38px;
@@ -118,11 +134,17 @@ flex-direction: row;}
     color: #D83B01;
     margin-left: 21px;
 }
+.btngetoffice:hover{
+    background: rgb(192, 188, 188);
+}
 .txtup{
     color: white;
     font-size: 15px;
     font-weight: 600;
     margin-top: 31px;
+}
+.txtup:hover{
+    text-decoration: underline;
 }
 .seconddiv{
     padding-top: 105px;
@@ -188,6 +210,9 @@ font-size: 14px;
 color: #0097D8;
 font-weight: 500;
 }
+.txticon2:hover{
+    text-decoration: underline;
+}
 .div5{
     height: 150px;
 }
@@ -219,6 +244,12 @@ li{
     font-size: x-small;
     color: rgb(68, 68, 68);
 }
+li:hover{
+    text-decoration: underline;
+}
 .lihead{
     font-size: 18px;
+}
+.lihead:hover{
+    text-decoration: none;
 }
